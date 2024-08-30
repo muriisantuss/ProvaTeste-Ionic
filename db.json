@@ -1,0 +1,20 @@
+{
+"Music": [
+  {
+    "id": 1,
+    "name": "Anyone",
+    "nameOfArtist": "Justin Bieber",
+    "date": "March 1, 1994",
+    "genre": "pop",
+    "album": "Justice"
+  },
+  {
+    "id": 2,
+    "name": "I know",
+    "nameOfArtist": "Travis Scott",
+    "date": "April 30, 1991",
+    "genre": "Trap",
+    "album": "Utopia"
+  }
+]
+}
