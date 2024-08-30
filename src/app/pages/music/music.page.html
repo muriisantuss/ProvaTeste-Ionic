@@ -1,6 +1,6 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>music</ion-title>
+    <ion-title>mApp's Music</ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -10,4 +10,10 @@
       <ion-title size="large">music</ion-title>
     </ion-toolbar>
   </ion-header>
+
+    <ion-list>
+      <ion-item *ngFor = "let catch of musics">
+        <ion-label>{{catch.name}}</ion-label>
+      </ion-item>
+    </ion-list>
 </ion-content>
