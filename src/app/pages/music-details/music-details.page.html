@@ -10,4 +10,42 @@
       <ion-title size="large">music-details</ion-title>
     </ion-toolbar>
   </ion-header>
+  <ion-accordion-group>
+    <ion-accordion value="first">
+      <ion-item slot="header" color="light">
+        <ion-label>Music Name:</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">{{musics.name}}</div>
+    </ion-accordion>
+    <ion-accordion value="first">
+      <ion-item slot="header" color="light">
+        <ion-label>Name Artist:</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">{{musics.nameOfArtist}}</div>
+    </ion-accordion>
+    <ion-accordion value="first">
+      <ion-item slot="header" color="light">
+        <ion-label>Realese Date:</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">{{musics.birthday}}</div>
+    </ion-accordion>
+    <ion-accordion value="first">
+      <ion-item slot="header" color="light">
+        <ion-label>Musical Style:</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">{{musics.genre}}</div>
+    </ion-accordion>
+    <ion-accordion value="first">
+      <ion-item slot="header" color="light">
+        <ion-label>Duration:</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">{{musics.duration}}</div>
+    </ion-accordion>
+    <ion-accordion value="first">
+      <ion-item slot="header" color="light">
+        <ion-label>Album Name:</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">{{musics.album}}</div>
+    </ion-accordion>
+  </ion-accordion-group>
 </ion-content>

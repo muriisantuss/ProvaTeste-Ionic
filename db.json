@@ -4,7 +4,8 @@
     "id": 1,
     "name": "Anyone",
     "nameOfArtist": "Justin Bieber",
-    "date": "March 1, 1994",
+    "birthday": "March 1, 1994",
+    "duration": "04:24",
     "genre": "pop",
     "album": "Justice"
   },
@@ -12,7 +13,8 @@
     "id": 2,
     "name": "I know",
     "nameOfArtist": "Travis Scott",
-    "date": "April 30, 1991",
+    "birthday": "April 30, 1991",
+    "duration": "03:46",
     "genre": "Trap",
     "album": "Utopia"
   }

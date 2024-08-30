@@ -13,7 +13,6 @@ export class MusicDetailsPage implements OnInit {
   musics: Music = {} as Music;
   constructor(private musicService: MusicService, private activeRoute: ActivatedRoute
   ) {
-    
   }
 
   ngOnInit() {

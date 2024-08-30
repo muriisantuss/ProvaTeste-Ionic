@@ -2,7 +2,7 @@ export interface Music{
   id: number,
   name: String,
   nameOfArtist: String,
-  birthday: Date,
+  birthday: String,
   genre: String,
   duration: String,
   album: String
